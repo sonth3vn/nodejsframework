@@ -1,0 +1,63 @@
+﻿{
+  "MESSAGE": {
+    "REGISTER": {
+      "1": "Đăng ký thành công",
+      "2": "Thiếu tham số đầu vào",
+      "4": "Email đã được sử dụng",
+      "3": "Tên đăng nhập đã được sử dụng",
+      "5": "Email không đúng định dạng",
+      "6": "Độ dài mật khẩu quá ngắn",
+      "7": "Tên đăng nhập không đúng định dạng",
+      "8": "Số điện thoại không đúng định dạng",
+      "9" : "Số điện thoại đã được sử dụng",
+      "500": "Lỗi bất thường do server"
+    },
+    "RECOVER": {
+      "1": "Mật khẩu đã được gửi vào hòm mail",
+      "2": "Thiếu tham số đầu vào",
+      "3": "Email chưa được đăng ký",
+      "500": "Lỗi bất thường do server"
+    },
+    "CONFIRM_ACCOUNT": {
+      "1": "Xác nhận tài khoản thành công",
+      "2": "Thiếu tham số đầu vào",
+      "3": "Tài khoản không tồn tại",
+      "4": "Tài khoản đã xác nhận",
+      "500": "Lỗi bất thường do server"
+    },
+    "USERINFO": {
+      "fullName" : "Họ tên",
+      "password": "Mật khẩu",
+      "confirm": "Xác nhận mật khẩu",
+      "oldpassword": "Mật khẩu cũ",
+      "isSupporter": "Tài khoản hỗ trợ",
+      "avatar": "Ảnh đại diện",
+      "type": "Loại tài khoản",
+      "phone": "Số điện thoại",
+      "birthday": "Ngày sinh",
+      "vehicles": "Phương tiện di chuyển",
+      "subAccount": "Tài khoản phụ",
+      "comment": "Nhận xét",
+      "coin": "Tiền",
+      "bonusPoint": "Điểm thưởng",
+      "address": "Địa chỉ",
+      "email": "Email",
+      "maxData": "Dung lượng tối đa",
+      "usedData": "Dung lượng đã sử dụng",
+      "success": "Thành công",
+      "changepassword": "Mật khẩu của bạn đã thay đổi",
+      "changeinfo": "Thông tin của bạn đã thay đổi",
+      "organization": "Tên tổ chức",
+      "dateCreated": "Ngày thành lập",
+      "taxCode": "Mã số thuế",
+      "license": "Bằng lái",
+      "experience": "Năm kinh nghiệm",
+      "numberRated": "Số lượng người đánh giá",
+      "status": "Tình trạng"
+    },
+    "INSURANCE":{
+      "title":"Tiêu đề",
+      "content":"Nội dung"
+    }
+  }
+}

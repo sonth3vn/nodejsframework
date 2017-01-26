@@ -1,0 +1,31 @@
+.card .fixed-table-pagination .pagination-detail {
+    display: none;
+}
+
+.top-menu > li > a > .tmn-counts {
+    position: absolute;
+    font-style: normal;
+    background: #f44336;
+    padding: 1px 5px;
+    border-radius: 2px;
+    right: 3px;
+    top: -6px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.main-tabs > li > a > .tmn-counts {
+    position: absolute;
+    font-style: normal;
+    background: #f44336;
+    padding: 1px 5px;
+    border-radius: 2px;
+    right: 135px;
+    top: 16px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.readed{
+    font-weight: bold;
+}

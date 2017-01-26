@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "56ccef10107427552ed55ce7",
+    "path": "56ccef10107427552ed55ce7",
+    "name": "Quản lý chung",
+    "parent": "",
+    "status": 1,
+    "crud": 0,
+    "hidden": 0,
+    "weight": 1,
+    "role": [1, 2],
+    "icon": "",
+    "description": "",
+    "link": "none"
+  },
+  {
+    "_id": "56ccef1a107427552ed55ce8",
+    "path": "2d6466742d686f6173616f2d#56ccef1a107427552ed55ce8",
+    "name": "Quản lý thành viên",
+    "parent": "56ccef10107427552ed55ce7",
+    "destroy": [],
+    "update": [],
+    "create": [],
+    "status": 1,
+    "crud": 0,
+    "hidden": 0,
+    "weight": 2,
+    "role": [1, 2],
+    "icon": "",
+    "description": "",
+    "link": ""
+  },
+  {
+    "_id": "56ccef23107427552ed55ce9",
+    "path": "56ccef1a107427552ed55ce8#56ccef23107427552ed55ce9",
+    "name": "Quản lý admin",
+    "parent": "56ccef1a107427552ed55ce8",
+    "destroy": [
+      1
+    ],
+    "update": [
+      1
+    ],
+    "create": [
+      1
+    ],
+    "status": 1,
+    "crud": 1,
+    "hidden": 0,
+    "weight": 1,
+    "role": [
+      1
+    ],
+    "icon": "",
+    "description": "",
+    "link": "admin/manager"
+  },
+  {
+    "_id": "56f9f89f029edef002dcc50e",
+    "path": "56ccef1a107427552ed55ce8#56f9f89f029edef002dcc50e",
+    "name": "Quản lý user",
+    "parent": "56ccef1a107427552ed55ce8",
+    "destroy": [
+      1
+    ],
+    "update": [
+      1
+    ],
+    "create": [
+      1
+    ],
+    "status": 1,
+    "crud": 1,
+    "hidden": 0,
+    "weight": 2,
+    "role": [
+      1, 2
+    ],
+    "icon": "",
+    "description": "",
+    "link": "admin/users"
+  }
+]

@@ -1,0 +1,1903 @@
+[2017-01-18 10:18:13.646] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:99:9)]
+[2017-01-18 10:18:13.741] [ERROR] APP - [TypeError: _.encrypt is not a function]
+TypeError: _.encrypt is not a function
+    at model.<anonymous> (e:\Workspace\NodeJS\MyApp\myApp\modals\user.js:58:39)
+    at _next (e:\Workspace\NodeJS\node_modules\hooks-fixed\hooks.js:62:30)
+    at fnWrapper (e:\Workspace\NodeJS\node_modules\hooks-fixed\hooks.js:186:18)
+    at model.Object.defineProperty.value.fn (e:\Workspace\NodeJS\node_modules\mongoose\lib\schema.js:209:9)
+    at _next (e:\Workspace\NodeJS\node_modules\hooks-fixed\hooks.js:62:30)
+    at fnWrapper (e:\Workspace\NodeJS\node_modules\hooks-fixed\hooks.js:186:18)
+    at e:\Workspace\NodeJS\node_modules\mongoose\lib\schema.js:193:13
+    at complete (e:\Workspace\NodeJS\node_modules\mongoose\lib\document.js:1171:5)
+    at e:\Workspace\NodeJS\node_modules\mongoose\lib\document.js:1199:20
+    at SchemaDate.SchemaType.doValidate (e:\Workspace\NodeJS\node_modules\mongoose\lib\schematype.js:682:12)
+    at e:\Workspace\NodeJS\node_modules\mongoose\lib\document.js:1195:9
+    at nextTickCallbackWith0Args (node.js:452:9)
+    at process._tickCallback (node.js:381:13) '[<anonymous> (libs\\cleanup.js:24:15)]'
+[2017-01-18 10:19:03.717] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:99:9)]
+[2017-01-18 10:19:34.941] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:32:53.574] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:99:9)]
+[2017-01-18 10:34:52.940] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:34:57.543] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:35:06.416] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:35:10.828] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:35:12.841] [ERROR] APP - [TypeError: _.breadCrumbs is not a function]
+TypeError: _.breadCrumbs is not a function
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:216:28)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:77:51)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at multerMiddleware (e:\Workspace\NodeJS\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\Workspace\NodeJS\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 10:35:25.404] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:35:30.363] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:49:35.661] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:49:40.953] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:49:45.212] [ERROR] APP - { [Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"]
+  view: 
+   View {
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     name: 'home',
+     root: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:82:56)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 10:49:50.036] [ERROR] APP - { [Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"]
+  view: 
+   View {
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     name: 'home',
+     root: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:82:56)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 10:50:56.871] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:51:05.621] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:51:08.206] [ERROR] APP - { [Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"]
+  view: 
+   View {
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     name: 'home',
+     root: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:7:56)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 10:51:27.368] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:51:32.084] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:51:34.238] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:51:34.247] [ERROR] APP - { [Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"]
+  view: 
+   View {
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     name: 'home',
+     root: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "home" in views directory "e:\Workspace\NodeJS\MyApp\myApp\views"
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:7:56)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 10:52:07.728] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:52:11.779] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:52:13.381] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:52:13.382] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:52:13.474] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:52:13.526] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:37.955] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:53:42.319] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:53:55.225] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:55.226] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:53:55.319] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:55.367] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:57.155] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:57.157] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:53:57.245] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:53:57.268] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:11.421] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 10:54:15.615] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 10:54:18.379] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:18.380] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:54:18.488] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:18.530] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:18.758] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:18.758] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:54:18.791] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:18.863] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:23.667] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:23.669] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:54:23.701] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:23.720] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.056] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.056] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:54:50.126] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.162] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.297] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.298] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:54:50.344] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:54:50.379] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:55:58.187] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:55:58.188] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:55:58.220] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:55:58.281] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:56:23.830] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:56:23.831] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:56:23.918] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:56:23.933] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:12.236] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:12.238] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:12.268] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:12.365] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:25.429] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:25.430] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:25.521] [DEBUG] APP - /assets/pages/login/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:25.573] [DEBUG] APP - /assets/login/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:26.963] [DEBUG] APP - /login [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:26.987] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:26.988] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.062] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.063] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.075] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.076] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.083] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.084] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.089] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.090] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.095] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.096] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.110] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.112] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.121] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.122] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.156] [DEBUG] APP - /js/jquery.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.158] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.170] [DEBUG] APP - /js/bootstrap.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.171] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.182] [DEBUG] APP - /socket.io/socket.io.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.182] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.214] [DEBUG] APP - /assets/js/easing.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.215] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.283] [DEBUG] APP - /assets/plugins/bootstrap-table-sort/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.283] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.429] [DEBUG] APP - /assets/tabs/chat/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.430] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.440] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.441] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 10:58:27.447] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 10:58:27.448] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.066] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.067] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.100] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.101] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.105] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.106] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.110] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.111] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.116] [DEBUG] APP - /css/docs.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.117] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.120] [DEBUG] APP - /js/jquery.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.121] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.127] [DEBUG] APP - /js/shCore.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.128] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.137] [DEBUG] APP - /css/shCoreDefault.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.138] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.152] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.152] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.168] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.169] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.177] [DEBUG] APP - /js/shBrushXml.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.178] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.189] [DEBUG] APP - /js/bootstrap.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.189] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.195] [DEBUG] APP - /socket.io/socket.io.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.196] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.213] [DEBUG] APP - /assets/js/easing.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.213] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.270] [DEBUG] APP - /assets/plugins/bootstrap-table-sort/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.270] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.287] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.288] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.292] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.292] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:22.298] [DEBUG] APP - /assets/tabs/chat/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:22.299] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.252] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.252] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.262] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.263] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.267] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.268] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.270] [DEBUG] APP - /css/docs.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.271] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.273] [DEBUG] APP - /css/shCoreDefault.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.274] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.291] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.292] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:27.301] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:27.302] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.252] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.253] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.369] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.370] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.383] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.383] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.394] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.395] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.399] [DEBUG] APP - /css/docs.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.400] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.404] [DEBUG] APP - /js/jquery.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.409] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.415] [DEBUG] APP - /js/shCore.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.415] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.419] [DEBUG] APP - /js/shBrushXml.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.420] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.426] [DEBUG] APP - /css/shCoreDefault.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.426] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.466] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.468] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.496] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.497] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.522] [DEBUG] APP - /js/bootstrap.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.598] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.650] [DEBUG] APP - /socket.io/socket.io.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.650] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.674] [DEBUG] APP - /assets/js/easing.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.675] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.743] [DEBUG] APP - /assets/plugins/bootstrap-table-sort/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.744] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.756] [DEBUG] APP - /assets/tabs/chat/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.757] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.765] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.765] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:08:41.769] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:08:41.770] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:09:05.490] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:09:05.491] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:06.934] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:06.935] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:06.976] [DEBUG] APP - /assets/css/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:06.977] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.255] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.256] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.341] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.342] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.353] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.354] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.358] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.358] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.367] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.368] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.372] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.373] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.389] [DEBUG] APP - /js/jquery.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.389] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.398] [DEBUG] APP - /js/bootstrap.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.398] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.406] [DEBUG] APP - /socket.io/socket.io.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.407] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.415] [DEBUG] APP - /assets/js/jquery.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.416] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.423] [DEBUG] APP - /assets/js/jquery-migrate.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.424] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.430] [DEBUG] APP - /assets/js/easing.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.431] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.438] [DEBUG] APP - /assets/js/bootstrap.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.438] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.491] [DEBUG] APP - /assets/plugins/bootstrap-table-sort/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.492] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.512] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.512] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.517] [DEBUG] APP - /assets/js/global.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.517] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.522] [DEBUG] APP - /assets/tabs/chat/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.523] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:10.528] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:10.531] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:28.703] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:28.704] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:28.715] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:28.716] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:28.881] [DEBUG] APP - /assets/js/jquery.min.map [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:28.881] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:28.932] [DEBUG] APP - /assets/css/bootstrap.min.css.map [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:28.932] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.558] [DEBUG] APP - / [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.559] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.632] [DEBUG] APP - /assets/plugins/ckeditor/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.633] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.641] [DEBUG] APP - /assets/pages/home/style.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.641] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.648] [DEBUG] APP - /css/bootstrap.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.648] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.655] [DEBUG] APP - /fonts/css/font-awesome.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.656] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.660] [DEBUG] APP - /css/animate.min.css [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.661] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.725] [DEBUG] APP - /js/jquery.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.726] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.733] [DEBUG] APP - /js/bootstrap.min.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.734] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.741] [DEBUG] APP - /socket.io/socket.io.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.741] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.754] [DEBUG] APP - /assets/js/jquery.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.754] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.767] [DEBUG] APP - /assets/js/jquery-migrate.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.767] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.778] [DEBUG] APP - /assets/js/easing.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.779] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.795] [DEBUG] APP - /assets/js/bootstrap.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.796] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.819] [DEBUG] APP - /assets/css/bootstrap.min.css.map [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.820] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.852] [DEBUG] APP - /assets/plugins/bootstrap-table-sort/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.853] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.876] [DEBUG] APP - /assets/js/global.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.876] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.883] [DEBUG] APP - /assets/tabs/chat/script.js [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.884] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.891] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.892] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.900] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.901] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:56.926] [DEBUG] APP - /assets/js/jquery.min.map [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:56.926] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:57.022] [DEBUG] APP - /images/welcome.png [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:57.023] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:11:57.034] [DEBUG] APP - /images/img.jpg [exports.auth (libs\auth.js:5:11)]
+[2017-01-18 11:11:57.034] [DEBUG] APP - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 
+   { _id: '5795d235f2b7b8c418a4d56b',
+     username: 'admin',
+     email: 'admin@dft.vn' },
+  logged: true } '[exports.auth (libs\\auth.js:7:11)]'
+[2017-01-18 11:14:00.915] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 11:14:05.253] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 11:23:12.818] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 11:23:17.127] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 11:48:34.961] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 11:48:42.377] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 11:49:58.753] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 11:50:03.183] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 11:50:06.117] [ERROR] APP - [ReferenceError: log is not defined]
+ReferenceError: log is not defined
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:212:9)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:6:39)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at favicon (e:\Workspace\NodeJS\node_modules\serve-favicon\index.js:72:7)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at multerMiddleware (e:\Workspace\NodeJS\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\Workspace\NodeJS\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 11:50:06.191] [ERROR] APP - [ReferenceError: log is not defined]
+ReferenceError: log is not defined
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:212:9)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:6:39)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (e:\Workspace\NodeJS\node_modules\express\node_modules\serve-static\index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (e:\Workspace\NodeJS\node_modules\express\node_modules\send\index.js:245:17)
+    at SendStream.onStatError (e:\Workspace\NodeJS\node_modules\express\node_modules\send\index.js:356:12)
+    at onstat (e:\Workspace\NodeJS\node_modules\express\node_modules\send\index.js:621:26)
+    at FSReqWrap.oncomplete (fs.js:82:15) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 11:50:13.464] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 11:50:20.036] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 11:56:07.256] [ERROR] APP - { [TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:45
+    43|                     <div class="profile-menu"><a href="javascript:;">
+    44|                             <div class="profile-pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 45|                             <div class="profile-info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    46|                         </a>
+    47|                         <ul class="main-menu" style="display: none">
+    48|                             <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function]
+  path: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views\\index.ejs' }
+TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:45
+    43|                     <div class="profile-menu"><a href="javascript:;">
+    44|                             <div class="profile-pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 45|                             <div class="profile-info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    46|                         </a>
+    47|                         <ul class="main-menu" style="display: none">
+    48|                             <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function
+    at eval (eval at <anonymous> (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:50:18)
+    at returnedFn (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\Workspace\NodeJS\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\Workspace\NodeJS\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:9:5)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 12:00:32.788] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 12:00:47.526] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:01:33.542] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:01:45.011] [ERROR] APP - [ReferenceError: getChildsMenu is not defined]
+ReferenceError: getChildsMenu is not defined
+    at Query.<anonymous> (e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:53:13)
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:177:19
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:109:16
+    at nextTickCallbackWith0Args (node.js:452:9)
+    at process._tickCallback (node.js:381:13) '[<anonymous> (libs\\cleanup.js:24:15)]'
+[2017-01-18 12:02:18.369] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:02:20.829] [ERROR] APP - [ReferenceError: admin is not defined]
+ReferenceError: admin is not defined
+    at Query.<anonymous> (e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:53:27)
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:177:19
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:109:16
+    at nextTickCallbackWith0Args (node.js:452:9)
+    at process._tickCallback (node.js:381:13) '[<anonymous> (libs\\cleanup.js:24:15)]'
+[2017-01-18 12:02:33.445] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:02:35.554] [ERROR] APP - [TypeError: _.dynamicSort is not a function]
+TypeError: _.dynamicSort is not a function
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:249:35
+    at Query.<anonymous> (e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:235:30)
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:177:19
+    at e:\Workspace\NodeJS\node_modules\kareem\index.js:109:16
+    at nextTickCallbackWith0Args (node.js:452:9)
+    at process._tickCallback (node.js:381:13) '[<anonymous> (libs\\cleanup.js:24:15)]'
+[2017-01-18 12:03:48.083] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:03:53.728] [ERROR] APP - { [TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:76
+    74|                         <div id="collapseManager" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+    75|                             <div class="panel-body p-0 p-b-10">
+ >> 76|                                 <%- _parseMenu(menu[0].childs, 'main-menu'); %>
+    77|                             </div>
+    78|                         </div>
+    79|                     </div>
+
+_parseMenu is not a function]
+  path: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views\\index.ejs' }
+TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:76
+    74|                         <div id="collapseManager" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+    75|                             <div class="panel-body p-0 p-b-10">
+ >> 76|                                 <%- _parseMenu(menu[0].childs, 'main-menu'); %>
+    77|                             </div>
+    78|                         </div>
+    79|                     </div>
+
+_parseMenu is not a function
+    at eval (eval at <anonymous> (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:62:16)
+    at returnedFn (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\Workspace\NodeJS\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\Workspace\NodeJS\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:221:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:9:5)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 12:06:25.966] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 12:06:30.581] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:06:48.093] [ERROR] APP - { [TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:76
+    74|                         <div id="collapseManager" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+    75|                             <div class="panel-body p-0 p-b-10">
+ >> 76|                                 <%- _parseMenu(menu[0].childs, 'main-menu'); %>
+    77|                             </div>
+    78|                         </div>
+    79|                     </div>
+
+_.htmlTags is not a function]
+  path: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views\\index.ejs' }
+TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:76
+    74|                         <div id="collapseManager" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+    75|                             <div class="panel-body p-0 p-b-10">
+ >> 76|                                 <%- _parseMenu(menu[0].childs, 'main-menu'); %>
+    77|                             </div>
+    78|                         </div>
+    79|                     </div>
+
+_.htmlTags is not a function
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:169:29
+    at Function._.each._.forEach (e:\Workspace\NodeJS\node_modules\underscore\underscore.js:153:9)
+    at Object.module.exports.htmlMenu [as _parseMenu] (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:167:11)
+    at eval (eval at <anonymous> (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:62:16)
+    at returnedFn (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\Workspace\NodeJS\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\Workspace\NodeJS\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:303:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:9:5)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 12:07:23.012] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 12:07:28.448] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 12:41:46.196] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:12:09.984] [INFO] APP - Server is running at 3100 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:12:38.407] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:12:42.449] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:16:35.662] [ERROR] APP - { [TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:51
+    49|                 <div class="profile-menu"><a href="javascript:;">
+    50|                         <div class="profile-pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 51|                         <div class="profile-info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    52|                     </a>
+    53|                     <ul class="main-menu" style="display: none">
+    54|                         <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function]
+  path: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views\\index.ejs' }
+TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:51
+    49|                 <div class="profile-menu"><a href="javascript:;">
+    50|                         <div class="profile-pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 51|                         <div class="profile-info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    52|                     </a>
+    53|                     <ul class="main-menu" style="display: none">
+    54|                         <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function
+    at eval (eval at <anonymous> (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:53:18)
+    at returnedFn (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\Workspace\NodeJS\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\Workspace\NodeJS\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:325:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:9:5)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 17:17:51.222] [ERROR] APP - { [TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:52
+    50|                     <a href="javascript:;">
+    51|                         <div class="profile_pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 52|                         <div class="profile_info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    53|                     </a>
+    54|                     <ul class="main-menu" style="display: none">
+    55|                         <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function]
+  path: 'e:\\Workspace\\NodeJS\\MyApp\\myApp\\views\\index.ejs' }
+TypeError: e:\Workspace\NodeJS\MyApp\myApp\views\index.ejs:52
+    50|                     <a href="javascript:;">
+    51|                         <div class="profile_pic"><img src="<%- user.avatar %>" alt=""></div>
+ >> 52|                         <div class="profile_info"><%- _.decrypt(user.email) %><i class="zmdi zmdi-arrow-drop-down"></i></div>
+    53|                     </a>
+    54|                     <ul class="main-menu" style="display: none">
+    55|                         <li><a href="/users/<%- user._id %>"><i class="zmdi zmdi-account"></i>Tài khoản</a></li>
+
+_.decrypt is not a function
+    at eval (eval at <anonymous> (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:53:18)
+    at returnedFn (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\Workspace\NodeJS\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\Workspace\NodeJS\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\Workspace\NodeJS\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\Workspace\NodeJS\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\Workspace\NodeJS\node_modules\express\lib\response.js:961:7)
+    at Function.module.exports.render (e:\Workspace\NodeJS\MyApp\myApp\libs\common.js:325:13)
+    at e:\Workspace\NodeJS\MyApp\myApp\libs\router.js:31:11
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\Workspace\NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10)
+    at exports.auth (e:\Workspace\NodeJS\MyApp\myApp\libs\auth.js:9:5)
+    at Layer.handle [as handle_request] (e:\Workspace\NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:312:13)
+    at e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\Workspace\NodeJS\node_modules\express\lib\router\index.js:271:10) '[<anonymous> (app.js:79:9)]'
+[2017-01-18 17:44:02.266] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:44:40.449] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:44:40.886] [ERROR] APP - [TypeError: Cannot read property '0' of null]
+TypeError: Cannot read property '0' of null
+    at e:\Workspace\NodeJS\MyApp\myApp\modals\user.js:25:29
+    at e:\Workspace\NodeJS\node_modules\async\lib\async.js:721:13
+    at e:\Workspace\NodeJS\node_modules\async\lib\async.js:52:16
+    at done (e:\Workspace\NodeJS\node_modules\async\lib\async.js:246:17)
+    at e:\Workspace\NodeJS\node_modules\async\lib\async.js:44:16
+    at e:\Workspace\NodeJS\node_modules\async\lib\async.js:718:17
+    at e:\Workspace\NodeJS\node_modules\async\lib\async.js:167:37
+    at e:\Workspace\NodeJS\MyApp\myApp\node_modules\bcryptjs\dist\bcrypt.js:1250:21
+    at Immediate.next [as _onImmediate] (e:\Workspace\NodeJS\MyApp\myApp\node_modules\bcryptjs\dist\bcrypt.js:1130:21)
+    at processImmediate [as _immediateCallback] (timers.js:383:17) '[<anonymous> (libs\\cleanup.js:24:15)]'
+[2017-01-18 17:44:58.192] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:44:58.631] [DEBUG] APP - null '[<anonymous> (modals\\user.js:25:15)]'
+[2017-01-18 17:46:07.758] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:46:08.199] [DEBUG] APP - [ '$2a$10$/ttqipTdoCXBliHEAqy/tOyDMlqPCTyAeZ7lbSLADAAEXJyEK9AoK' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-01-18 17:49:44.333] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:49:49.551] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:51:29.118] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:51:33.206] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:51:43.190] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:52:04.772] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:52:08.860] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:52:19.726] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:54:03.182] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:54:04.165] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:54:04.352] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:54:04.523] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:54:38.055] [DEBUG] APP - {} '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:55:15.679] [DEBUG] APP - { username: 'sonth', password: 'son_yaibA1' } '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:55:43.420] [DEBUG] APP - { username: 'admin', password: '123456' } '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:55:43.796] [DEBUG] APP - null true '[<anonymous> (libs\\router.js:56:23)]'
+[2017-01-18 17:55:55.698] [DEBUG] APP - { username: 'admin', password: '1234567' } '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:55:56.052] [DEBUG] APP - null false '[<anonymous> (libs\\router.js:56:23)]'
+[2017-01-18 17:57:01.280] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-01-18 17:57:09.097] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-01-18 17:57:13.450] [DEBUG] APP - { username: 'admin', password: '123456' } '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:57:18.917] [DEBUG] APP - { username: 'admin', password: '123456' } '[<anonymous> (libs\\router.js:45:15)]'
+[2017-01-18 17:58:08.417] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'

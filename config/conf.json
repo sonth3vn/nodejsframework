@@ -1,0 +1,31 @@
+{
+  "database": {
+    "ip": "localhost",
+    "port": 27017,
+    "name": "myApp",
+    "user": "",
+    "pwd": "",
+    "mechanism": "",
+    "digestPassword": false
+  },
+  "app": {
+    "ip": "localhost",
+    "port": 3000
+  },
+  "social": {
+    "facebookAuth" : {
+      "clientID"      : "651479018338844",
+      "clientSecret"  : "d5bc1dea6b790c2ffb67288507f50c65",
+      "callbackURL"   : "http://123.30.180.166:3100/auth/facebook/callback"
+    },
+    "googleAuth" : {
+      "clientID"      : "368346675237-ihjljj6808rqmkj4qp62qilnsttj5129.apps.googleusercontent.com",
+      "clientSecret"  : "0DtFYKZYhMhv6hUPfw-uEx7r",
+      "callbackURL"   : "http://phimtonghop.vn:3100/auth/google/callback"
+    }
+  },
+  "token": {
+    "secret" : "sonth@dft.vn",
+    "expiresIn" : "1d"
+  }
+}
