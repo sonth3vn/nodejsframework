@@ -51,7 +51,7 @@ module.exports = function routers(app) {
                 return res.json({code: 404});
             }
 
-            _.compareWithHashData(_body["password"], user['password'], function(err, pass){
+            _.checkLogin(_body["password"], user, function(err, pass){
                 if (err){
                     return res.json({code: 500});
                 }
@@ -66,9 +66,7 @@ module.exports = function routers(app) {
                     req.session.logged = true;
                     res.status(200).send({code: 200});
                 });
-
             });
-
         });
 
     });
@@ -76,11 +74,18 @@ module.exports = function routers(app) {
     _User.findOne({username: 'admin'}, function (error, user) {
         if (!_.isNull(user)) return false;
         _User.create({
-            _id: new mongodb.ObjectId('5795d235f2b7b8c418a4d56b'),
             username: 'admin',
             email: 'admin@dft.vn',
             password: '123456',
             accountCode: '000000',
+            status: 1
+        });
+
+        _User.create({
+            username: 'sonth',
+            email: 'admin@dft.vn',
+            password: 'sonth@123',
+            accountCode: '111111',
             status: 1
         });
     });

@@ -19,7 +19,7 @@ UserSchema.pre('save', function(next) {
             if (!user.password){
                 return next(user.password);
             }
-            _.hashData(user.password, next);
+            _.hashData(user.username + '$' + user.password, next);
         }
     ], function(err, resp){
         __log.debug(resp);

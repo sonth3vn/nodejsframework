@@ -1901,3 +1901,23 @@ TypeError: Cannot read property '0' of null
 [2017-01-18 17:57:13.450] [DEBUG] APP - { username: 'admin', password: '123456' } '[<anonymous> (libs\\router.js:45:15)]'
 [2017-01-18 17:57:18.917] [DEBUG] APP - { username: 'admin', password: '123456' } '[<anonymous> (libs\\router.js:45:15)]'
 [2017-01-18 17:58:08.417] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 08:58:15.854] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:00:17.599] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:00:22.658] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:00:22.803] [DEBUG] APP - [ '$2a$08$B16uqLVR7lkphhubx18IgOh7sQj3U2G0vXt.ScHF5WYzXa3wbtwly' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:01:54.189] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:01:58.615] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:01:58.752] [DEBUG] APP - [ '$2a$08$QNcBy328SmxQyAYZmt.FuOh8qFXDCkMW3Cjp3pjwfaye5uwQSjs7m' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:10:24.540] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:10:28.573] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:10:45.079] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:10:50.364] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:10:50.499] [DEBUG] APP - [ '$2a$08$/MVKe/Q7DffILSkQD0iwsO1QNlVv6XmkLl8rycOfNqip46e6aRapC' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:11:52.870] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:12:01.398] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:12:01.607] [DEBUG] APP - [ '$2a$08$TzxGxlREdLqf6LSgV7ikL.gIDK.DjIKE9MRKJohrdcHaj3lqWhuRe' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:12:01.621] [DEBUG] APP - [ '$2a$08$j8tZ7L3siXvHOb1mG0diT.T2.c5W9qTJKy1Gq25Dgjxm/lUtN1Ena' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:13:29.318] [ERROR] APP - {} '[<anonymous> (libs\\cleanup.js:18:15)]'
+[2017-02-09 09:13:33.123] [INFO] APP - Server is running at 3000 [<anonymous> (app.js:88:9)]
+[2017-02-09 09:13:33.303] [DEBUG] APP - [ '$2a$08$TUkoZz4uJLnKEcBD.e.v4uvz8VgpwQUeaPNsSByeZe08OmO0Ii7fO' ] '[<anonymous> (modals\\user.js:25:15)]'
+[2017-02-09 09:13:33.315] [DEBUG] APP - [ '$2a$08$r20bJ0EqKs15cVKd8BVztujWNYt.kCOyh6CE.yFkwXwBsTDhxeEi2' ] '[<anonymous> (modals\\user.js:25:15)]'

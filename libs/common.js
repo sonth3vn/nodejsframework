@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var mongodb = require('mongodb');
 var bcrypt = require('bcryptjs');
-const saltRounds = 10;
+const saltRounds = 8;
 var Cryptr = require('cryptr'),
     cryptr = new Cryptr(_config.token.secret);
 var nodemailer = require('nodemailer');
@@ -365,12 +365,16 @@ module.exports = {
         return _.isEqual(typeof (str), 'number') ? true : (!_.isNaN(Number(str)) && str.indexOf('e') < 0);
     },
     hashData: function (plainText, cb) {
-        bcrypt.genSalt(saltRounds, function (err, salt) {
-            bcrypt.hash(plainText, salt, cb);
-        });
+        bcrypt.hash(plainText, saltRounds, cb);
     },
     compareWithHashData: function (plainText, hashData, cb) {
         bcrypt.compare(plainText, hashData, cb);
+    },
+    checkLogin: function(plainText, data, cb){
+        if (!data.password || !data.username){
+            return cb('err');
+        }
+        this.compareWithHashData(data.username + '$' + plainText, data.password, cb);
     },
     sendAccountCode: function (accountName, code, toEmail) {
         var transporter = nodemailer.createTransport('smtps://mobiledev6763@gmail.com:makelove05@smtp.gmail.com');
